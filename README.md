@@ -1,4 +1,7 @@
-﻿# TERA PLATFORM
+﻿# WellBeing Network
+
+```
+# TERA PLATFORM
 
 
 This is a public blockchain whose main feature is true decentralization through the use of pow consensus and very high performance.
@@ -260,4 +263,4 @@ pm2 start run-jinn.js
 
 ## RUS
  [Эта же страница на русском](https://gitlab.com/terafoundation/tera2/-/tree/master/Doc/Rus)
-
+```
