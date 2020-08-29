@@ -307,7 +307,7 @@ function GetJinEngine()
     require("../jinn/wbn");
     var Engine = {};
     global.CreateNodeEngine(Engine, Map);
-    require("../jinn/wbn/tera-hash").Init(Engine);
+    require("../jinn/wbn/wbn-hash").Init(Engine);
     
     return Engine;
 }

@@ -92,24 +92,24 @@ function GetEngine(MapName)
         Engine.SetOwnIP(Engine.ip);
     }
     
-    require("./tera-encrypt").Init(Engine);
+    require("./wbn-encrypt").Init(Engine);
     
-    require("./tera-hash").Init(Engine);
+    require("./wbn-hash").Init(Engine);
     
-    require("./tera-link-server").Init(Engine);
-    require("./tera-link-process-tx").Init(Engine);
-    require("./tera-link").Init(Engine);
-    require("./tera-link-code").Init(Engine);
+    require("./wbn-link-server").Init(Engine);
+    require("./wbn-link-process-tx").Init(Engine);
+    require("./wbn-link").Init(Engine);
+    require("./wbn-link-code").Init(Engine);
     
-    require("./tera-net-constant").Init(Engine);
-    require("./tera-code-updater").Init(Engine);
+    require("./wbn-net-constant").Init(Engine);
+    require("./wbn-code-updater").Init(Engine);
     
-    require("./tera-mining").Init(Engine);
-    require("./tera-stat").Init(Engine);
+    require("./wbn-mining").Init(Engine);
+    require("./wbn-stat").Init(Engine);
     
-    require("./tera-tests").Init(Engine);
+    require("./wbn-tests").Init(Engine);
     
-    require("./tera-addr").Init(Engine);
+    require("./wbn-addr").Init(Engine);
     
     return Engine;
 }
