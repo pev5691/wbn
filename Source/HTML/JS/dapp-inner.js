@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
-*/
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 var ALL_DATA_ONCE = 1;
 var SMART = {}, BASE_ACCOUNT = {}, INFO = {}, USER_ACCOUNT = [], USER_ACCOUNT_MAP = {}, OPEN_PATH = "", ACCOUNT_OPEN_NUM = 0;
