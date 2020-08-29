@@ -22,8 +22,8 @@ global.Init_DB_HEADER_FORMAT = function (Obj)
 }
 
 
-global.CDBFile = require("../../core/db/db-file");
-require("../src");
+global.CDBFile = require("../../../core/db/db-file");
+require("../../src");
 
 
 

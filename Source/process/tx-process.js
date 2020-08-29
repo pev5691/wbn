@@ -55,7 +55,7 @@ global.TreeFindTX = new STreeBuffer(30 * 1000, CompareItemHashSimple, "string");
 
 
 
-var JinnLib = require("../jinn/tera");
+var JinnLib = require("../jinn/wbn/tera");
 var Map = {"Block":1, "BlockDB":1, "Log":1, };
 JinnLib.Create(Map);
 
