@@ -12,7 +12,7 @@
 
 var fs = require("fs");
 
-require("../../../core/update-code");
+require("../../core/update-code");
 
 module.exports.Init = Init;
 

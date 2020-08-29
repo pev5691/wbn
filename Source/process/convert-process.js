@@ -188,10 +188,10 @@ function GetJinEngine()
     
     var Map = {"Block":1, "BlockDB":1, "Log":1, };
     
-    require("../jinn/wbn/tera");
+    require("../jinn/wbn");
     var Engine = {};
     global.CreateNodeEngine(Engine, Map);
-    require("../jinn/wbn/tera/tera-hash").Init(Engine);
+    require("../jinn/wbn/tera-hash").Init(Engine);
     
     return Engine;
 }

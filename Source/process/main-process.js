@@ -136,7 +136,7 @@ function StartJinn()
     
     global.START_PORT_NUMBER = global.JINN_PORT;
     
-    var JinnLib = require("../jinn/wbn/tera");
+    var JinnLib = require("../jinn/wbn");
     if(!global.JINN_IP)
         global.JINN_IP = "0.0.0.0";
     StartPortMapping(global.JINN_IP, global.JINN_PORT, function (ip)

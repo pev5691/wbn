@@ -105,7 +105,7 @@ if(!global.HTTP_HOSTING_PORT)
     process.exit();
 }
 
-var JinnLib = require("../jinn/wbn/tera");
+var JinnLib = require("../jinn/wbn");
 var Map = {"Block":1, "BlockDB":1, "Log":1, };
 JinnLib.Create(Map);
 
