@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
-*/
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 
 
@@ -1118,8 +1118,8 @@ HostingCaller.GetSupplyCalc = function (Params)
     var BlockNum0 = 63538017;
     var RestAcc0 = 359939214;
     var Delta = BlockNum - BlockNum0;
-    var DeltaReward = Math.floor(Delta * NEW_FORMULA_JINN_KTERA * RestAcc0 / TOTAL_SUPPLY_TERA);
-    return TOTAL_SUPPLY_TERA - RestAcc0 + DeltaReward;
+    var DeltaReward = Math.floor(Delta * NEW_FORMULA_JINN_KWBN * RestAcc0 / TOTAL_SUPPLY_WBN);
+    return TOTAL_SUPPLY_WBN - RestAcc0 + DeltaReward;
 }
 
 HostingCaller.GetSupply = function (Params)
@@ -1134,13 +1134,13 @@ HostingCaller.GetSupply = function (Params)
         return "";
     else
     {
-        return "" + (global.TOTAL_SUPPLY_TERA - Data.Value.SumCOIN);
+        return "" + (global.TOTAL_SUPPLY_WBN - Data.Value.SumCOIN);
     }
 }
 
 HostingCaller.GetTotalSupply = function (Params)
 {
-    return "" + global.TOTAL_SUPPLY_TERA;
+    return "" + global.TOTAL_SUPPLY_WBN;
 }
 
 
