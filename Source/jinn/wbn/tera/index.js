@@ -1,14 +1,16 @@
 /*
- * @project: JINN
- * @version: 1.0
+ * @project: WellBeingNetwork
+ * @version: Development (beta)
  * @license: MIT (not for evil)
- * @copyright: Yuriy Ivanov (Vtools) 2019-2020 [progr76@gmail.com]
- * Telegram:  https://t.me/progr76
-*/
+ * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 /**
  *
- * Adaptation of the JINN library with the TERA blockchain
+ * Adaptation of the JINN library with the WBN blockchain
  *
  **/
 
@@ -40,7 +42,7 @@ JINN_CONST.CONSENSUS_PERIOD_TIME = CONSENSUS_PERIOD_TIME;
 JINN_CONST.START_CHECK_BLOCKNUM = 50;
 
 
-JINN_CONST.SHARD_NAME = "TERA";
+JINN_CONST.SHARD_NAME = "WBN";
 JINN_CONST.NETWORK_NAME = global.NETWORK;
 
 JINN_CONST.MAX_PACKET_SIZE = 1200000;
@@ -137,13 +139,8 @@ function Create(MapName)
         const SYSTEM_SCORE = 5000000;
         if(global.NETWORK === "MAIN-JINN")
         {
-            Engine.AddNodeAddr({ip:"t1.teraexplorer.com", port:30000, Score:SYSTEM_SCORE, System:1});
-            Engine.AddNodeAddr({ip:"t2.teraexplorer.com", port:30000, Score:SYSTEM_SCORE, System:1});
-            Engine.AddNodeAddr({ip:"t4.teraexplorer.com", port:30000, Score:SYSTEM_SCORE, System:1});
-            Engine.AddNodeAddr({ip:"t5.teraexplorer.com", port:30000, Score:SYSTEM_SCORE, System:1});
-            Engine.AddNodeAddr({ip:"terablockchain.org", port:30000, Score:SYSTEM_SCORE, System:1});
-            Engine.AddNodeAddr({ip:"teraexplorer.org", port:30000, Score:SYSTEM_SCORE, System:1});
-            Engine.AddNodeAddr({ip:"149.154.70.158", port:30000, Score:SYSTEM_SCORE, System:1});
+            Engine.AddNodeAddr({ip:"vdska.wellbeing.su", port:30000, Score:SYSTEM_SCORE, System:1});
+            Engine.AddNodeAddr({ip:"totoha.wellbeing.su", port:30000, Score:SYSTEM_SCORE, System:1});
         }
         else
             if(global.NETWORK === "TEST-JINN")
