@@ -11,11 +11,8 @@ require("./core/update-code");
 
 
 var Arr=[
-    {num:0,ip:"https://t1.teraexplorer.com"},
-    {num:0,ip:"https://t2.teraexplorer.com"},
-    {num:0,ip:"https://t4.teraexplorer.com"},
-    {num:0,ip:"https://t5.teraexplorer.com"},
-    {num:0,ip:"http://terablockchain.org"},
+    {num:0,ip:"http://vdska.wellbeing.su"},
+    {num:0,ip:"http://totoha.wellbeing.su"},
 ];
 
 if(!global.NoStartLoadNewCode)
