@@ -20,9 +20,9 @@ global.MINING_VERSION_NUM = 0;
 global.DEBUG_TRAFFIC = 0;
 
 global.FORK_MODE = 0;
-global.NETWORK = "NONE";
+global.NETWORK = "WBN-MAIN";
 global.START_NETWORK_DATE = 1598463131275;
-global.CONSENSUS_PERIOD_TIME = 1000;
+global.CONSENSUS_PERIOD_TIME = 3000;
 
 //Fork init values
 try

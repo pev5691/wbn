@@ -752,7 +752,7 @@ class AccountApp extends require("./dapp")
             return "Error length transaction";
         
         var CheckMinPower = 1;
-        if(BlockNum >= 7000000 || global.NETWORK !== "MAIN-JINN")
+        if(BlockNum >= 7000000 || global.NETWORK !== "WBN-MAIN")
         {
             if(ContextFrom && ContextFrom.To.length === 1 && ContextFrom.To[0].ID === 0 && ContextFrom.To[0].SumCOIN >= PRICE_DAO(BlockNum).NewAccount)
             {
@@ -769,7 +769,7 @@ class AccountApp extends require("./dapp")
         }
         this.CreateTrCount++
         
-        if(CheckMinPower && global.NETWORK === "MAIN-JINN")
+        if(CheckMinPower && global.NETWORK === "WBN-MAIN")
         {
             var power;
             if(BlockNum >= global.BLOCKNUM_TICKET_ALGO)
@@ -1204,7 +1204,7 @@ class AccountApp extends require("./dapp")
     
     GetHole()
     {
-        if(global.NETWORK === "MAIN-JINN")
+        if(global.NETWORK === "WBN-MAIN")
             return [{s:8300, f:186478}];
         
         return [];

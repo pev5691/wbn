@@ -1,6 +1,6 @@
 
 if(!global.MODE_RUN)
-    global.MODE_RUN="MAIN_JINN";
+    global.MODE_RUN="WBN-MAIN";
 const fs = require('fs');
 const os = require('os');
 if(!global.DATA_PATH || global.DATA_PATH==="")
