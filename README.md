@@ -1,4 +1,4 @@
-﻿# WellBeing Network
+﻿# WellBeing Network (WBN) crypto platform
 
 ```
 # TERA PLATFORM

@@ -168,10 +168,10 @@ switch(global.MODE_RUN)
         
         break;
         
-    case "WBN-MAIN":
+    case "MAIN_JINN":
         global.JINN_MODE = 1;
     case "MAIN":
-        global.NETWORK = "WBN-MAIN";
+        global.NETWORK = "MAIN_JINN";
         var NewStartNum = 63510000;
         global.UPDATE_CODE_JINN = NewStartNum;
         global.UPDATE_CODE_JINN_KWBN = NewStartNum;

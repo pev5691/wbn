@@ -137,7 +137,7 @@ function Create(MapName)
     if(Engine.AddNodeAddr)
     {
         const SYSTEM_SCORE = 5000000;
-        if(global.NETWORK === "WBN-MAIN")
+        if(global.NETWORK === "MAIN-JINN")
         {
             Engine.AddNodeAddr({ip:"vdska.wellbeing.su", port:50005, Score:SYSTEM_SCORE, System:1});
             Engine.AddNodeAddr({ip:"totoha.wellbeing.su", port:50005, Score:SYSTEM_SCORE, System:1});

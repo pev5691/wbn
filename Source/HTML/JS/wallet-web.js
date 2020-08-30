@@ -17,7 +17,7 @@ var MaxConnectedCount = 50;
 var TIME_LENGTH_CONNECT_ALL = 2 * 1000;
 var StartTimeConnecting = 0;
 var ConnectedCount = 0;
-var NETWORK_NAME = "WBN-MAIN";
+var NETWORK_NAME = "MAIN-JINN";
 var ServerMap = {};
 var ServerMainMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"},
     "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":443, "Name":"vdska", "System":1},
@@ -28,7 +28,7 @@ var ServerTestMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"}, 
 
 function StartWebWallet()
 {
-    if(NETWORK_NAME === "WBN-MAIN")
+    if(NETWORK_NAME === "MAIN-JINN")
     {
         ServerMap = ServerMainMap;
         MIN_SUM_POWER = COUNT_BLOCK_PROOF * 30;

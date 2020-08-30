@@ -30,7 +30,7 @@ function RunOnUpdate()
         
         SaveParams(fname, UpdateInfo);
         
-        if(global.NETWORK === "WBN-MAIN")
+        if(global.NETWORK === "MAIN-JINN")
         {
             if(CurNum < 2304)
             {

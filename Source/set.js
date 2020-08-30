@@ -1,5 +1,5 @@
 
-global.MODE_RUN="WBN-MAIN";
+global.MODE_RUN="MAIN_JINN";
 global.DATA_PATH="../DATA";
 global.CODE_PATH=process.cwd();
 
