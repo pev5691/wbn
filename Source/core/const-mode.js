@@ -62,7 +62,7 @@ switch(global.MODE_RUN)
         global.NETWORK = "TEST-JINN";
         global.TEST_JINN = 1;
         
-        global.START_NETWORK_DATE = 1598792200000;
+        global.START_NETWORK_DATE = 1598792600000;
         global.CONSENSUS_PERIOD_TIME = 3000;
         
         global.RESYNC_CONDITION = 0;
