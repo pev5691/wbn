@@ -159,11 +159,11 @@ function Create(MapName)
                     Engine.AddNodeAddr({ip:"127.0.0.1", port:50001, Score:SYSTEM_SCORE, System:1});
                 }
                 else
-                if(global.NETWORK === "WBN-MAIN")
-                {
-                    Engine.AddNodeAddr({ip: "vdska.wellbeing.su", port: 34734, Score: SYSTEM_SCORE, System: 1});
-                    Engine.AddNodeAddr({ip: "totoha.wellbeing.su", port: 34734, Score: SYSTEM_SCORE, System: 1});
-                }
+                    if(global.NETWORK === "WBN-MAIN")
+                    {
+                        Engine.AddNodeAddr({ip: "vdska.wellbeing.su", port: 34734, Score: SYSTEM_SCORE, System: 1});
+                        Engine.AddNodeAddr({ip: "totoha.wellbeing.su", port: 34734, Score: SYSTEM_SCORE, System: 1});
+                    }
         
         Engine.LoadAddrOnStart();
     }
