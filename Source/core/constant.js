@@ -131,7 +131,7 @@ global.USE_NET_FOR_SERVER_ADDRES = 1;
 
 global.STAT_MODE = 1;
 global.MAX_STAT_PERIOD = 600;
-global.WALLET_NAME = "TERA";
+global.WALLET_NAME = "WBN";
 global.WALLET_DESCRIPTION = "";
 global.USE_MINING = 0;
 global.POW_MAX_PERCENT = 50;
