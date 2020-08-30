@@ -21,7 +21,7 @@ global.DEBUG_TRAFFIC = 0;
 
 global.FORK_MODE = 0;
 global.NETWORK = "NONE";
-global.START_NETWORK_DATE = 1530446400000;
+global.START_NETWORK_DATE = 1598463131275;
 global.CONSENSUS_PERIOD_TIME = 1000;
 
 //Fork init values
