@@ -1,13 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
- * @copyright: Yuriy Ivanov 2017-2019 [progr76@gmail.com]
  * @license: MIT (not for evil)
- * Web: http://terafoundation.org
- * GitHub: https://github.com/terafoundation/wallet
- * Twitter: https://twitter.com/terafoundation
- * Telegram: https://web.telegram.org/#/im?p=@terafoundation
-*/
+ * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 "use strict";
 var der = require("./der"), toString = Object.prototype.toString, exports = {}, assert = exports;
