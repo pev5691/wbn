@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
-*/
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 
 "use strict";
@@ -60,7 +60,7 @@ global.JINN_DEBUG_INFO = 0;
 
 
 global.JINN_IP = "";
-global.JINN_PORT = 30000;
+global.JINN_PORT = 34734;
 global.IP_VERSION = 4;
 global.CLIENT_MODE = 0;
 
@@ -73,8 +73,8 @@ global.UPDATE_CODE_SHARDING = 1000000000;
 // Code updates for JINN
 
 global.UPDATE_CODE_JINN = 1000000000;
-global.UPDATE_CODE_JINN_KTERA = global.UPDATE_CODE_JINN;
-global.NEW_FORMULA_JINN_KTERA = 3;
+global.UPDATE_CODE_JINN_KWBN = global.UPDATE_CODE_JINN;
+global.NEW_FORMULA_JINN_KWBN = 3;
 
 
 global.UPDATE_CODE_1 = 36000000;
@@ -206,7 +206,7 @@ global.MIN_POWER_POW_TR = 10;
 
 if(global.MIN_POWER_POW_BL === undefined)
     global.MIN_POWER_POW_BL = 5;
-global.TOTAL_SUPPLY_TERA = 1e9;
+global.TOTAL_SUPPLY_WBN = 1e9;
 
 
 global.MAX_ACTS_LENGTH = 10 * 1000 * 1000;
@@ -226,7 +226,7 @@ global.NEW_BLOCK_REWARD1 = 22500000;
 
 
 global.NEW_FORMULA_START = 32000000;
-global.NEW_FORMULA_KTERA = 3;
+global.NEW_FORMULA_KWBN = 3;
 global.NEW_FORMULA_TARGET1 = 43000000;
 global.NEW_FORMULA_TARGET2 = 45000000;
 
@@ -270,7 +270,7 @@ require("./const-mode.js");
 
 
 global.START_CODE_VERSION_NUM = UPDATE_CODE_VERSION_NUM;
-global.DEF_CLIENT = "TERA-CORE";
+global.DEF_CLIENT = "WBN-CORE";
 
 global.FIRST_TIME_BLOCK = START_NETWORK_DATE;
 global.START_BLOCK_RUN = 0;
