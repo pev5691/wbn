@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
-*/
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 
 var MIN_VERSION = 2232;
@@ -19,14 +19,16 @@ var StartTimeConnecting = 0;
 var ConnectedCount = 0;
 var NETWORK_NAME = "MAIN-JINN";
 var ServerMap = {};
-var ServerMainMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"}, "terawallet.org":{"ip":"terawallet.org", "port":443,
-        "Name":"terawallet", "System":1}, "teraexplorer.org":{"ip":"teraexplorer.org", "port":443, "Name":"teraexplorer", "System":1},
-    "t2.teraexplorer.com":{"ip":"t2.teraexplorer.com", "port":443, "Name":"t2.teraexplorer.com", "System":1}, "t4.teraexplorer.com":{"ip":"t4.teraexplorer.com",
-        "port":443, "Name":"t4.teraexplorer.com", "System":1}, "t5.teraexplorer.com":{"ip":"t5.teraexplorer.com", "port":443, "Name":"t5.teraexplorer.com",
-        "System":1}, "dappsgate.com":{"ip":"dappsgate.com", "port":80, "Name":"SUPPORT2", "System":1}, "t1.teraexplorer.com":{"ip":"t1.teraexplorer.com",
-        "port":80, "Name":"t1.teraexplorer.com", "System":1}, };
-var ServerTestMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"}, "dappsgate.com":{"ip":"dappsgate.com", "port":88,
-        "Name":"SUPPORT1", "System":1}, };
+var ServerMainMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"},
+    "terawallet.org":{"ip":"terawallet.org", "port":443, "Name":"terawallet", "System":1},
+    "teraexplorer.org":{"ip":"teraexplorer.org", "port":443, "Name":"teraexplorer", "System":1},
+    "t2.teraexplorer.com":{"ip":"t2.teraexplorer.com", "port":443, "Name":"t2.teraexplorer.com", "System":1},
+    "t4.teraexplorer.com":{"ip":"t4.teraexplorer.com", "port":443, "Name":"t4.teraexplorer.com", "System":1},
+    "t5.teraexplorer.com":{"ip":"t5.teraexplorer.com", "port":443, "Name":"t5.teraexplorer.com", "System":1},
+    "dappsgate.com":{"ip":"dappsgate.com", "port":80, "Name":"SUPPORT2", "System":1},
+    "t1.teraexplorer.com":{"ip":"t1.teraexplorer.com", "port":80, "Name":"t1.teraexplorer.com", "System":1}, };
+var ServerTestMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"},
+    "dappsgate.com":{"ip":"dappsgate.com", "port":88, "Name":"SUPPORT1", "System":1}, };
 
 function StartWebWallet()
 {

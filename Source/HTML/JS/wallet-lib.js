@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
-*/
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 var PayList = [];
 var AttachItem;
@@ -584,7 +584,7 @@ function GetInvoiceHTML(item,onclick,classstr)
     var idname = "idSendInvoice" + item.num;
     var value = "";
     if(item.Data.Amount)
-        value += "<B>" + escapeHtml(item.Data.Amount) + "</B> Tera";
+        value += "<B>" + escapeHtml(item.Data.Amount) + "</B> WBN";
     else
         value += "<B style='color:green'>No pay</B>";
     
