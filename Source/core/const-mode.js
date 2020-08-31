@@ -32,7 +32,7 @@ switch(global.MODE_RUN)
         global.NEW_ACCOUNT_INCREMENT = 1;
         global.NEW_BLOCK_REWARD1 = 1;
         global.NEW_FORMULA_START = 1;
-        global.NEW_FORMULA_KTERA = 3;
+        global.NEW_FORMULA_KWBN = 3;
         global.NEW_FORMULA_TARGET1 = 0;
         global.NEW_FORMULA_TARGET2 = 1;
         
@@ -82,7 +82,7 @@ switch(global.MODE_RUN)
         global.NEW_ACCOUNT_INCREMENT = 1;
         global.NEW_BLOCK_REWARD1 = 1;
         global.NEW_FORMULA_START = 1;
-        global.NEW_FORMULA_KTERA = 3 * 3;
+        global.NEW_FORMULA_KWBN = 3 * 3;
         global.NEW_FORMULA_TARGET1 = 0;
         global.NEW_FORMULA_TARGET2 = 1;
         
@@ -137,7 +137,7 @@ switch(global.MODE_RUN)
         global.NEW_ACCOUNT_INCREMENT = 1;
         global.NEW_BLOCK_REWARD1 = 1;
         global.NEW_FORMULA_START = 1;
-        global.NEW_FORMULA_KTERA = 3;
+        global.NEW_FORMULA_KWBN = 3;
         global.NEW_FORMULA_TARGET1 = 0;
         global.NEW_FORMULA_TARGET2 = 1;
         
@@ -161,8 +161,8 @@ switch(global.MODE_RUN)
         global.EXPERIMENTAL_CODE = 0;
         
         global.UPDATE_CODE_JINN = 0;
-        global.UPDATE_CODE_JINN_KTERA = global.UPDATE_CODE_JINN;
-        global.NEW_FORMULA_JINN_KTERA = 3 * 3;
+        global.UPDATE_CODE_JINN_KWBN = global.UPDATE_CODE_JINN;
+        global.NEW_FORMULA_JINN_KWBN = 3 * 3;
         
         global.UPDATE_CODE_SHARDING = 100;
         
@@ -174,9 +174,9 @@ switch(global.MODE_RUN)
         global.NETWORK = "MAIN-JINN";
         var NewStartNum = 63510000;
         global.UPDATE_CODE_JINN = NewStartNum;
-        global.UPDATE_CODE_JINN_KTERA = NewStartNum;
+        global.UPDATE_CODE_JINN_KWBN = NewStartNum;
         global.UPDATE_CODE_6 = NewStartNum;
-        global.NEW_FORMULA_JINN_KTERA = 3 * 3;
+        global.NEW_FORMULA_JINN_KWBN = 3 * 3;
         
         global.CONSENSUS_PERIOD_TIME = 3000;
         var StartSec = 1530446400;
