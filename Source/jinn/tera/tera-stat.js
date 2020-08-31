@@ -407,8 +407,8 @@ function Init(Engine)
             }
         }
         
-        global.TERA_STAT = {};
-        CopyObjKeys(global.TERA_STAT, JINN_STAT);
+        global.WBN_STAT = {};
+        CopyObjKeys(global.WBN_STAT, JINN_STAT);
         JINN_STAT.Clear();
     };
     
