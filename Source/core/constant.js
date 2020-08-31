@@ -266,11 +266,8 @@ global.STANDART_PORT_NUMBER = 30000;
 InitParamsArg();
 require("./const-mode.js");
 
-
-
-
 global.START_CODE_VERSION_NUM = UPDATE_CODE_VERSION_NUM;
-global.DEF_CLIENT = "WBN-CORE";
+global.DEF_CLIENT = "TERA-CORE";
 
 global.FIRST_TIME_BLOCK = START_NETWORK_DATE;
 global.START_BLOCK_RUN = 0;
@@ -285,7 +282,6 @@ if(global.HTTP_PORT_PASSWORD === undefined)
     global.HTTP_PORT_PASSWORD = "";
 if(global.HTTP_IP_CONNECT === undefined)
     global.HTTP_IP_CONNECT = "";
-
 
 if(global.USE_AUTO_UPDATE === undefined)
     global.USE_AUTO_UPDATE = 1;
