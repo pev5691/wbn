@@ -12,7 +12,7 @@ console.log("=FORK=");
 // global.FORK_MODE = 1; //set to 1 for fork
 global.MODE_RUN = "FORK";
 global.NETWORK="WBN-MAIN"; //max 10 chars
-global.START_NETWORK_DATE = 1598810000000; //formula of it value is (new Date(2019, 8, 20, 17, 0, 0, 0))-0;
+global.START_NETWORK_DATE = 1598923000000; //formula of it value is (new Date(2019, 8, 20, 17, 0, 0, 0))-0;
 // global.START_NETWORK_DATE=Date.now();
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
