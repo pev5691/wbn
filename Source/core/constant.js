@@ -267,7 +267,7 @@ InitParamsArg();
 require("./const-mode.js");
 
 global.START_CODE_VERSION_NUM = UPDATE_CODE_VERSION_NUM;
-global.DEF_CLIENT = "TERA-CORE";
+global.DEF_CLIENT = "WBN-CORE";
 
 global.FIRST_TIME_BLOCK = START_NETWORK_DATE;
 global.START_BLOCK_RUN = 0;

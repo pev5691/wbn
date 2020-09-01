@@ -1,18 +1,20 @@
 /*
- * @project: JINN
- * @version: 1.0
+ * @project: WellBeingNetwork
+ * @version: Development (beta)
  * @license: MIT (not for evil)
- * @copyright: Yuriy Ivanov (Vtools) 2019-2020 [progr76@gmail.com]
- * Telegram:  https://t.me/progr76
-*/
+ * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 /**
  *
  * The priority of the transaction when transferring between nodes
  *
  * This is the plan (approximate figures)
- * Every 10K Tera that is on the account gives the right to make one transaction every 100 blocks (5 minutes). Moreover, the higher the load, the more coins the higher the priority.
- * If the account has less than 10K Tera, then you can make one transaction only if the blockchain is low (less than 10 transactions per block).
+ * Every 10K WBN that is on the account gives the right to make one transaction every 100 blocks (5 minutes). Moreover, the higher the load, the more coins the higher the priority.
+ * If the account has less than 10K WBN, then you can make one transaction only if the blockchain is low (less than 10 transactions per block).
 
 **/
 
