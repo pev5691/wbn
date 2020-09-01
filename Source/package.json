@@ -1,10 +1,10 @@
 {
-  "name": "Tera",
+  "name": "WBN",
   "version": "1.0.0",
-  "description": "Tera wallet",
+  "description": "WBN wallet",
   "main": "run-nw.js",
   "main2": "run-electron.js",
-  "repository": "https://gitlab.com/terafoundation/tera",
+  "repository": "https://github.com/pev5691/wbn",
   "keywords": [
     "wallet",
     "cryptowallet",
@@ -19,8 +19,10 @@
     "bintrees": "^1.0.2",
     "greenlock": "^2.6.7",
     "nat-upnp": "^1.1.1",
-    "secp256k1": "^3.6.1",
+    "ntp-client": "^0.5.3",
+    "secp256k1": "^3.8.0",
     "stun": "^1.1.1",
+    "uglify-js": "^3.4.9",
     "zip": "^1.2.0"
   }
 }
